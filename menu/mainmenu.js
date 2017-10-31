@@ -69,7 +69,7 @@ const template = [
     submenu: [
       {
         label: i18n.__('Learn more'),
-        click () { require('electron').shell.openExternal('https://github.com/crilleengvall/electron-tutorial-app') }
+        click () { require('electron').shell.openExternal('https://github.com/pemasora/beManager') }
       }
     ]
   }
