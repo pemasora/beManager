@@ -11,7 +11,7 @@ function i18n() {
 		loadedLanguage = JSON.parse(fs.readFileSync(path.join(__dirname, app.getLocale() + '.js'), 'utf8'))
 	}
 	else {
-		loadedLanguage = JSON.parse(fs.readFileSync(path.join(__dirname, 'en.js'), 'utf8'))
+		loadedLanguage = JSON.parse(fs.readFileSync(path.join(__dirname, 'pt.js'), 'utf8'))
 	}
 }
 
